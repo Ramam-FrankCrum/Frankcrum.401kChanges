@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Frankcrum.401kChanges.Applications", "Frankcrum.401kChanges.Applications\Frankcrum.401kChanges.Applications.csproj", "{D6B7C67B-981F-4747-BF57-FA40116A2EAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Frankcrum.401kChanges.Infrastructure", "Frankcrum.401kChanges.Infrastructure\Frankcrum.401kChanges.Infrastructure.csproj", "{6364EBEF-0B90-48AB-87BE-1DA02E6CA442}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Frankcrum.401kChanges.Api", "Frankcrum.401kChanges.Api\Frankcrum.401kChanges.Api.csproj", "{7648A839-1326-49C2-AB89-C9538004FD11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Frankcrum.401kChanges.Repository.Test", "Frankcrum.401kChanges.Test\Frankcrum.401kChanges.Repository.Test.csproj", "{6091139A-72DD-4C36-9924-DC7156BA94AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Frankcrum.401kChanges.Console", "Frankcrum.401kChanges.Console\Frankcrum.401kChanges.Console.csproj", "{ECF940B1-B1A6-40EB-B26A-05D3F85F0C14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6B7C67B-981F-4747-BF57-FA40116A2EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B7C67B-981F-4747-BF57-FA40116A2EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B7C67B-981F-4747-BF57-FA40116A2EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B7C67B-981F-4747-BF57-FA40116A2EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6364EBEF-0B90-48AB-87BE-1DA02E6CA442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6364EBEF-0B90-48AB-87BE-1DA02E6CA442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6364EBEF-0B90-48AB-87BE-1DA02E6CA442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6364EBEF-0B90-48AB-87BE-1DA02E6CA442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7648A839-1326-49C2-AB89-C9538004FD11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7648A839-1326-49C2-AB89-C9538004FD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7648A839-1326-49C2-AB89-C9538004FD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7648A839-1326-49C2-AB89-C9538004FD11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6091139A-72DD-4C36-9924-DC7156BA94AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6091139A-72DD-4C36-9924-DC7156BA94AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6091139A-72DD-4C36-9924-DC7156BA94AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6091139A-72DD-4C36-9924-DC7156BA94AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF940B1-B1A6-40EB-B26A-05D3F85F0C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF940B1-B1A6-40EB-B26A-05D3F85F0C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF940B1-B1A6-40EB-B26A-05D3F85F0C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF940B1-B1A6-40EB-B26A-05D3F85F0C14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9547A134-FCB5-4A8F-BD7A-A083BFD7DE4C}
+	EndGlobalSection
+EndGlobal

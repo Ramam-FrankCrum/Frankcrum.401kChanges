@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Dapper" Version="2.0.90" />
+		<PackageReference Include="Microsoft.ApplicationInsights" Version="2.17.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="Serilog" Version="2.10.0" />
+		<PackageReference Include="System.Text.Json" Version="5.0.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Frankcrum.401kChanges.Api\Frankcrum.401kChanges.Api.csproj" />
+	  <ProjectReference Include="..\Frankcrum.401kChanges.Applications\Frankcrum.401kChanges.Applications.csproj" />
+	  <ProjectReference Include="..\Frankcrum.401kChanges.Infrastructure\Frankcrum.401kChanges.Infrastructure.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="appsettings.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>
